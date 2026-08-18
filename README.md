@@ -1,4 +1,4 @@
-![MATLAB](https://img.shields.io/badge/Built%20with-MATLAB-blue)
+[![MATLAB Live Script](https://img.shields.io/badge/Open-MATLAB%20Live%20Script-orange)](./Concave_peeling_outward.mlx)
 
 # Hyperelastic Thin-Film Peeling on Curved Substrates
 
