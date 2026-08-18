@@ -1,4 +1,4 @@
-[![MATLAB Live Script](https://img.shields.io/badge/Open-MATLAB%20Live%20Script-orange)](./Concave_peeling_outward.mlx)
+
 
 # Hyperelastic Thin-Film Peeling on Curved Substrates
 
@@ -17,7 +17,6 @@ This repository contains MATLAB-based analytical formulations for hyperelastic t
 - Comparison with finite element simulations
 
 ## Full Documentation
-
-📄 [MATLAB Live Script](./Concave_peeling_outward.mlx)
+MATLAB full code: file:///C:/Users/user/OneDrive/Desktop/IMAGE%20PROCESSING/PRACTICE%20TEST/CONCAVE%20TESTS/TEST%201/GH016130_undistorted_frames/HYPERELASTIC-Thin-Film-Peeling-Analysis/Concave_peeling_outward.html
 
 
