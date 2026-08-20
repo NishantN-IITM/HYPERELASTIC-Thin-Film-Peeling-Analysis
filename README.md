@@ -1,5 +1,3 @@
-
-
 # Hyperelastic Thin-Film Peeling on Concave Substrate
 
 ## Overview
@@ -14,6 +12,9 @@ This repository contains MATLAB-based analytical formulations for hyperelastic t
 
 ## Full Documentation
 
+<details>
+<summary><b>MATLAB Implementation</b></summary>
+    
 ```matlab
 
 % V SHAPED DOUBLE PEELING ON CONCAVE SUBSTRATE
@@ -508,4 +509,4 @@ ax.GridColor = [0 0 0];
 hold on
 end
 ```
-
+</details>
