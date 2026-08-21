@@ -213,6 +213,8 @@ ax.GridColor = [0 0 0];
 
 hold on
 
+<img width="2564" height="1255" alt="Figure_1" src="https://github.com/user-attachments/assets/00700e78-46ca-4bd2-ab6c-c5e32de2c417" />
+
 %% Compute ALPHA
 alpha_solutions = nan(size(L1bar_solutions));
 for ig = 1:numG
@@ -265,6 +267,7 @@ ax = gca;
 ax.GridLineStyle = '--';
 ax.GridColor = [0 0 0];
 
+<img width="2544" height="1283" alt="Figure_2" src="https://github.com/user-attachments/assets/48e844be-d6df-4cb7-9dd4-0075b7e9c817" />
 
 %% Compute BETA
 
@@ -323,6 +326,8 @@ ax.GridLineStyle = '--';
 ax.GridColor = [0 0 0];
 
 hold on
+
+<img width="2632" height="1260" alt="Figure_3" src="https://github.com/user-attachments/assets/e75ae030-2ae6-4ea2-84a3-49379ad9a520" />
 
 %% Compute STRETCH - CORRECTED VERSION
 
@@ -398,6 +403,8 @@ ax.GridLineStyle = '--';
 ax.GridColor = [0 0 0];
 hold on
 
+<img width="2544" height="1283" alt="Figure_4" src="https://github.com/user-attachments/assets/40864a3f-213c-48ed-9fe6-445514040cf0" />
+
 %% Compute TENSION
 Tension_solutions = nan(size(L1bar_solutions));
 for ig = 1:numG
@@ -451,6 +458,8 @@ ax = gca;
 ax.GridLineStyle = '--';
 ax.GridColor = [0 0 0];
 hold on
+
+<img width="2555" height="1298" alt="Figure_5" src="https://github.com/user-attachments/assets/5905a83e-ff18-403f-9d6b-5065a8e75d0d" />
 
 %% Compute FORCE - (DIMENSIONLESS) 
 Force_solutions = nan(size(L1bar_solutions));
@@ -508,5 +517,8 @@ ax.GridColor = [0 0 0];
 
 hold on
 end
+
+<img width="2555" height="1297" alt="Figure_6" src="https://github.com/user-attachments/assets/15170250-a8b0-476e-b360-44bb0ad70032" />
+
 ```
 </details>
