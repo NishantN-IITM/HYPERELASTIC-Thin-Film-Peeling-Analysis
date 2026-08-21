@@ -212,9 +212,10 @@ ax.GridLineStyle = '--';
 ax.GridColor = [0 0 0];
 
 hold on
+```
+<img width="2564" height="1255" alt="Figure_1" src="https://github.com/user-attachments/assets/b79ea6e6-8992-4fdb-9ca9-2b85648b33a0" />
 
-<img width="2564" height="1255" alt="Figure_1" src="https://github.com/user-attachments/assets/00700e78-46ca-4bd2-ab6c-c5e32de2c417" />
-
+```matlab
 %% Compute ALPHA
 alpha_solutions = nan(size(L1bar_solutions));
 for ig = 1:numG
@@ -267,8 +268,11 @@ ax = gca;
 ax.GridLineStyle = '--';
 ax.GridColor = [0 0 0];
 
+hold on
+```
 <img width="2544" height="1283" alt="Figure_2" src="https://github.com/user-attachments/assets/48e844be-d6df-4cb7-9dd4-0075b7e9c817" />
 
+```matlab
 %% Compute BETA
 
 beta_solutions = nan(size(L1bar_solutions));
@@ -326,10 +330,11 @@ ax.GridLineStyle = '--';
 ax.GridColor = [0 0 0];
 
 hold on
-
+```
 <img width="2632" height="1260" alt="Figure_3" src="https://github.com/user-attachments/assets/e75ae030-2ae6-4ea2-84a3-49379ad9a520" />
 
-%% Compute STRETCH - CORRECTED VERSION
+```matlab
+%% Compute STRETCH
 
 for ig = 1:numG
     fprintf('Gbar = %.1f, min(L1) = %.3e\n', ...
@@ -337,9 +342,7 @@ for ig = 1:numG
         min(L1bar_solutions(ig,:),[],'omitnan'));
 end
 
-
 stretch_solutions = nan(size(L1bar_solutions));
-
 for ig = 1:numG
     for iu = 1:numU
 
@@ -402,9 +405,10 @@ ax = gca;
 ax.GridLineStyle = '--';
 ax.GridColor = [0 0 0];
 hold on
-
+```
 <img width="2544" height="1283" alt="Figure_4" src="https://github.com/user-attachments/assets/40864a3f-213c-48ed-9fe6-445514040cf0" />
 
+```matlab
 %% Compute TENSION
 Tension_solutions = nan(size(L1bar_solutions));
 for ig = 1:numG
@@ -458,9 +462,10 @@ ax = gca;
 ax.GridLineStyle = '--';
 ax.GridColor = [0 0 0];
 hold on
-
+```
 <img width="2555" height="1298" alt="Figure_5" src="https://github.com/user-attachments/assets/5905a83e-ff18-403f-9d6b-5065a8e75d0d" />
 
+```matlab
 %% Compute FORCE - (DIMENSIONLESS) 
 Force_solutions = nan(size(L1bar_solutions));
 for ig = 1:numG
@@ -517,7 +522,7 @@ ax.GridColor = [0 0 0];
 
 hold on
 end
-
+```
 <img width="2555" height="1297" alt="Figure_6" src="https://github.com/user-attachments/assets/15170250-a8b0-476e-b360-44bb0ad70032" />
 
 ```
