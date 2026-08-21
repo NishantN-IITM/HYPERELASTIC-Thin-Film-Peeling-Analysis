@@ -12,6 +12,8 @@ This repository contains MATLAB-based analytical formulations for hyperelastic t
 
 ## Full Documentation
 
+<img width="615" height="278" alt="image" src="https://github.com/user-attachments/assets/e2d73a5b-0017-4015-8d8f-94e161d9f5da" />
+
 <details>
 <summary><b>MATLAB Implementation</b></summary>
     
